@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import router from "next/router";
+import router, { useRouter } from "next/router";
 import { useSession } from "next-auth/client";
 import { RichText } from "prismic-dom";
 import { useEffect } from "react";
@@ -20,6 +20,7 @@ interface PostPreviewProps{
 
 export default function PostPreview({ post }: PostPreviewProps){
     const [session] = useSession();
+    const router = useRouter();
 
     useEffect(() => {
         if(session?.activeSubscription){
