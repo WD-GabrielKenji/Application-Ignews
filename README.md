@@ -20,10 +20,10 @@
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
-<img src="./public/images/HomePage.jpg" width="49%" height="49%"/> 
-<img src="./public/images/Pagamento.jpg" width="49%" height="49%"/> 
-<img src="./public/images/Preview.jpg" width="49%" height="49%"/> 
-<img src="./public/images/Post.jpg" width="49%" height="49%" />
+<img src="./public/images/HomePage.jpg" width="30%" height="30%"/> 
+<img src="./public/images/Pagamento.jpg" width="30%" height="30%"/> 
+<img src="./public/images/Preview.jpg" width="30%" height="30%"/> 
+<img src="./public/images/Post.jpg" width="30%" height="30%" />
 
 <p align="justify"><strong>Ig.News</strong> é um app voltado ao <strong>consumo de Blog</strong> contendo Posts com conteúdos para assinantes e prévias para não assinantes, e utilizando Next.js com conceitos de SSG e SSR, gerando mais performance e indexação.<p>
 
